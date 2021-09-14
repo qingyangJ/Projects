@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/C++Demo/C++Primer/Project/build",
+  "command": "D:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/WorkerMS.dir/includes_CXX.rsp -g   -o CMakeFiles\\WorkerMS.dir\\main.cpp.obj -c D:\\C++Demo\\C++Primer\\Project\\main.cpp",
+  "file": "D:/C++Demo/C++Primer/Project/main.cpp"
+},
+{
+  "directory": "D:/C++Demo/C++Primer/Project/build",
+  "command": "D:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/WorkerMS.dir/includes_CXX.rsp -g   -o CMakeFiles\\WorkerMS.dir\\src\\Boss.cpp.obj -c D:\\C++Demo\\C++Primer\\Project\\src\\Boss.cpp",
+  "file": "D:/C++Demo/C++Primer/Project/src/Boss.cpp"
+},
+{
+  "directory": "D:/C++Demo/C++Primer/Project/build",
+  "command": "D:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/WorkerMS.dir/includes_CXX.rsp -g   -o CMakeFiles\\WorkerMS.dir\\src\\Employee.cpp.obj -c D:\\C++Demo\\C++Primer\\Project\\src\\Employee.cpp",
+  "file": "D:/C++Demo/C++Primer/Project/src/Employee.cpp"
+},
+{
+  "directory": "D:/C++Demo/C++Primer/Project/build",
+  "command": "D:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/WorkerMS.dir/includes_CXX.rsp -g   -o CMakeFiles\\WorkerMS.dir\\src\\GlobalFunc.cpp.obj -c D:\\C++Demo\\C++Primer\\Project\\src\\GlobalFunc.cpp",
+  "file": "D:/C++Demo/C++Primer/Project/src/GlobalFunc.cpp"
+},
+{
+  "directory": "D:/C++Demo/C++Primer/Project/build",
+  "command": "D:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/WorkerMS.dir/includes_CXX.rsp -g   -o CMakeFiles\\WorkerMS.dir\\src\\Management.cpp.obj -c D:\\C++Demo\\C++Primer\\Project\\src\\Management.cpp",
+  "file": "D:/C++Demo/C++Primer/Project/src/Management.cpp"
+},
+{
+  "directory": "D:/C++Demo/C++Primer/Project/build",
+  "command": "D:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/WorkerMS.dir/includes_CXX.rsp -g   -o CMakeFiles\\WorkerMS.dir\\src\\Manager.cpp.obj -c D:\\C++Demo\\C++Primer\\Project\\src\\Manager.cpp",
+  "file": "D:/C++Demo/C++Primer/Project/src/Manager.cpp"
+}
+]
