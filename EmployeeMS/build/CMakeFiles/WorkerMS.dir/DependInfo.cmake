@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/C++Demo/C++Primer/Project/main.cpp" "D:/C++Demo/C++Primer/Project/build/CMakeFiles/WorkerMS.dir/main.cpp.obj"
-  "D:/C++Demo/C++Primer/Project/src/Boss.cpp" "D:/C++Demo/C++Primer/Project/build/CMakeFiles/WorkerMS.dir/src/Boss.cpp.obj"
-  "D:/C++Demo/C++Primer/Project/src/Employee.cpp" "D:/C++Demo/C++Primer/Project/build/CMakeFiles/WorkerMS.dir/src/Employee.cpp.obj"
-  "D:/C++Demo/C++Primer/Project/src/GlobalFunc.cpp" "D:/C++Demo/C++Primer/Project/build/CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.obj"
-  "D:/C++Demo/C++Primer/Project/src/Management.cpp" "D:/C++Demo/C++Primer/Project/build/CMakeFiles/WorkerMS.dir/src/Management.cpp.obj"
-  "D:/C++Demo/C++Primer/Project/src/Manager.cpp" "D:/C++Demo/C++Primer/Project/build/CMakeFiles/WorkerMS.dir/src/Manager.cpp.obj"
+  "D:/C++Demo/C++Primer/Project/EmployeeMS/main.cpp" "D:/C++Demo/C++Primer/Project/EmployeeMS/build/CMakeFiles/WorkerMS.dir/main.cpp.obj"
+  "D:/C++Demo/C++Primer/Project/EmployeeMS/src/Boss.cpp" "D:/C++Demo/C++Primer/Project/EmployeeMS/build/CMakeFiles/WorkerMS.dir/src/Boss.cpp.obj"
+  "D:/C++Demo/C++Primer/Project/EmployeeMS/src/Employee.cpp" "D:/C++Demo/C++Primer/Project/EmployeeMS/build/CMakeFiles/WorkerMS.dir/src/Employee.cpp.obj"
+  "D:/C++Demo/C++Primer/Project/EmployeeMS/src/GlobalFunc.cpp" "D:/C++Demo/C++Primer/Project/EmployeeMS/build/CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.obj"
+  "D:/C++Demo/C++Primer/Project/EmployeeMS/src/Management.cpp" "D:/C++Demo/C++Primer/Project/EmployeeMS/build/CMakeFiles/WorkerMS.dir/src/Management.cpp.obj"
+  "D:/C++Demo/C++Primer/Project/EmployeeMS/src/Manager.cpp" "D:/C++Demo/C++Primer/Project/EmployeeMS/build/CMakeFiles/WorkerMS.dir/src/Manager.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -170,6 +170,7 @@ void Management::AddWorker() {
         Add(num);
         // 更新现有人数
         m_count += num;
+        
     }
     SaveToFile();
 }
@@ -188,6 +189,11 @@ void Management::SaveToFile() {
                 m_WorkerArr[i]->m_jobId << endl;
     }
     ofs.close();
+    if(m_count == 0) {
+        m_FileIsEmpty = true;
+    } else {
+            m_FileIsEmpty = false;
+    }
 }
 // 文件存在从文件中添加数据
 void Management::AddFormFile() {
@@ -498,8 +504,6 @@ void Management::CleanFile() {
             }
             m_count = 0;
             m_FileIsEmpty = true;
-            delete []m_WorkerArr;
-            m_WorkerArr = nullptr;
         }
         cout<<"清空成功！"<<endl;
     }

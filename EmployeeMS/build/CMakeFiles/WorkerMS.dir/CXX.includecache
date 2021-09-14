@@ -32,19 +32,19 @@ Worker.h
 string
 -
 
-D:/C++Demo/C++Primer/Project/src/Management.cpp
+D:/C++Demo/C++Primer/Project/EmployeeMS/src/Management.cpp
 GlobalFunc.h
-D:/C++Demo/C++Primer/Project/src/GlobalFunc.h
+D:/C++Demo/C++Primer/Project/EmployeeMS/src/GlobalFunc.h
 Management.h
-D:/C++Demo/C++Primer/Project/src/Management.h
+D:/C++Demo/C++Primer/Project/EmployeeMS/src/Management.h
 Worker.h
-D:/C++Demo/C++Primer/Project/src/Worker.h
+D:/C++Demo/C++Primer/Project/EmployeeMS/src/Worker.h
 Employee.h
-D:/C++Demo/C++Primer/Project/src/Employee.h
+D:/C++Demo/C++Primer/Project/EmployeeMS/src/Employee.h
 Manager.h
-D:/C++Demo/C++Primer/Project/src/Manager.h
+D:/C++Demo/C++Primer/Project/EmployeeMS/src/Manager.h
 Boss.h
-D:/C++Demo/C++Primer/Project/src/Boss.h
+D:/C++Demo/C++Primer/Project/EmployeeMS/src/Boss.h
 iostream
 -
 fstream

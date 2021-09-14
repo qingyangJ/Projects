@@ -8,18 +8,18 @@ CMakeFiles/WorkerMS.dir/main.cpp.obj
  ../include/Management.h
  ../include/Manager.h
  ../include/Worker.h
- D:/C++Demo/C++Primer/Project/main.cpp
+ D:/C++Demo/C++Primer/Project/EmployeeMS/main.cpp
 CMakeFiles/WorkerMS.dir/src/Boss.cpp.obj
  ../include/Boss.h
  ../include/Worker.h
- D:/C++Demo/C++Primer/Project/src/Boss.cpp
+ D:/C++Demo/C++Primer/Project/EmployeeMS/src/Boss.cpp
 CMakeFiles/WorkerMS.dir/src/Employee.cpp.obj
  ../include/Employee.h
  ../include/Worker.h
- D:/C++Demo/C++Primer/Project/src/Employee.cpp
+ D:/C++Demo/C++Primer/Project/EmployeeMS/src/Employee.cpp
 CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.obj
  ../include/GlobalFunc.h
- D:/C++Demo/C++Primer/Project/src/GlobalFunc.cpp
+ D:/C++Demo/C++Primer/Project/EmployeeMS/src/GlobalFunc.cpp
 CMakeFiles/WorkerMS.dir/src/Management.cpp.obj
  ../include/Boss.h
  ../include/Employee.h
@@ -27,8 +27,8 @@ CMakeFiles/WorkerMS.dir/src/Management.cpp.obj
  ../include/Management.h
  ../include/Manager.h
  ../include/Worker.h
- D:/C++Demo/C++Primer/Project/src/Management.cpp
+ D:/C++Demo/C++Primer/Project/EmployeeMS/src/Management.cpp
 CMakeFiles/WorkerMS.dir/src/Manager.cpp.obj
  ../include/Manager.h
  ../include/Worker.h
- D:/C++Demo/C++Primer/Project/src/Manager.cpp
+ D:/C++Demo/C++Primer/Project/EmployeeMS/src/Manager.cpp

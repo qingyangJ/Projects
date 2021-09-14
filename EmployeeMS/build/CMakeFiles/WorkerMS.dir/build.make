@@ -59,10 +59,10 @@ RM = D:\cmake3.17\cmake-3.17.0\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C++Demo\C++Primer\Project
+CMAKE_SOURCE_DIR = D:\C++Demo\C++Primer\Project\EmployeeMS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C++Demo\C++Primer\Project\build
+CMAKE_BINARY_DIR = D:\C++Demo\C++Primer\Project\EmployeeMS\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/WorkerMS.dir/depend.make
@@ -76,86 +76,86 @@ include CMakeFiles/WorkerMS.dir/flags.make
 CMakeFiles/WorkerMS.dir/main.cpp.obj: CMakeFiles/WorkerMS.dir/flags.make
 CMakeFiles/WorkerMS.dir/main.cpp.obj: CMakeFiles/WorkerMS.dir/includes_CXX.rsp
 CMakeFiles/WorkerMS.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WorkerMS.dir/main.cpp.obj"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\main.cpp.obj -c D:\C++Demo\C++Primer\Project\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\EmployeeMS\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WorkerMS.dir/main.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\main.cpp.obj -c D:\C++Demo\C++Primer\Project\EmployeeMS\main.cpp
 
 CMakeFiles/WorkerMS.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WorkerMS.dir/main.cpp.i"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\main.cpp > CMakeFiles\WorkerMS.dir\main.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\EmployeeMS\main.cpp > CMakeFiles\WorkerMS.dir\main.cpp.i
 
 CMakeFiles/WorkerMS.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WorkerMS.dir/main.cpp.s"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\main.cpp -o CMakeFiles\WorkerMS.dir\main.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\EmployeeMS\main.cpp -o CMakeFiles\WorkerMS.dir\main.cpp.s
 
 CMakeFiles/WorkerMS.dir/src/Boss.cpp.obj: CMakeFiles/WorkerMS.dir/flags.make
 CMakeFiles/WorkerMS.dir/src/Boss.cpp.obj: CMakeFiles/WorkerMS.dir/includes_CXX.rsp
 CMakeFiles/WorkerMS.dir/src/Boss.cpp.obj: ../src/Boss.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WorkerMS.dir/src/Boss.cpp.obj"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\Boss.cpp.obj -c D:\C++Demo\C++Primer\Project\src\Boss.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\EmployeeMS\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WorkerMS.dir/src/Boss.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\Boss.cpp.obj -c D:\C++Demo\C++Primer\Project\EmployeeMS\src\Boss.cpp
 
 CMakeFiles/WorkerMS.dir/src/Boss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WorkerMS.dir/src/Boss.cpp.i"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\src\Boss.cpp > CMakeFiles\WorkerMS.dir\src\Boss.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\EmployeeMS\src\Boss.cpp > CMakeFiles\WorkerMS.dir\src\Boss.cpp.i
 
 CMakeFiles/WorkerMS.dir/src/Boss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WorkerMS.dir/src/Boss.cpp.s"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\src\Boss.cpp -o CMakeFiles\WorkerMS.dir\src\Boss.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\EmployeeMS\src\Boss.cpp -o CMakeFiles\WorkerMS.dir\src\Boss.cpp.s
 
 CMakeFiles/WorkerMS.dir/src/Employee.cpp.obj: CMakeFiles/WorkerMS.dir/flags.make
 CMakeFiles/WorkerMS.dir/src/Employee.cpp.obj: CMakeFiles/WorkerMS.dir/includes_CXX.rsp
 CMakeFiles/WorkerMS.dir/src/Employee.cpp.obj: ../src/Employee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WorkerMS.dir/src/Employee.cpp.obj"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\Employee.cpp.obj -c D:\C++Demo\C++Primer\Project\src\Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\EmployeeMS\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WorkerMS.dir/src/Employee.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\Employee.cpp.obj -c D:\C++Demo\C++Primer\Project\EmployeeMS\src\Employee.cpp
 
 CMakeFiles/WorkerMS.dir/src/Employee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WorkerMS.dir/src/Employee.cpp.i"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\src\Employee.cpp > CMakeFiles\WorkerMS.dir\src\Employee.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\EmployeeMS\src\Employee.cpp > CMakeFiles\WorkerMS.dir\src\Employee.cpp.i
 
 CMakeFiles/WorkerMS.dir/src/Employee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WorkerMS.dir/src/Employee.cpp.s"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\src\Employee.cpp -o CMakeFiles\WorkerMS.dir\src\Employee.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\EmployeeMS\src\Employee.cpp -o CMakeFiles\WorkerMS.dir\src\Employee.cpp.s
 
 CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.obj: CMakeFiles/WorkerMS.dir/flags.make
 CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.obj: CMakeFiles/WorkerMS.dir/includes_CXX.rsp
 CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.obj: ../src/GlobalFunc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.obj"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\GlobalFunc.cpp.obj -c D:\C++Demo\C++Primer\Project\src\GlobalFunc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\EmployeeMS\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\GlobalFunc.cpp.obj -c D:\C++Demo\C++Primer\Project\EmployeeMS\src\GlobalFunc.cpp
 
 CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.i"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\src\GlobalFunc.cpp > CMakeFiles\WorkerMS.dir\src\GlobalFunc.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\EmployeeMS\src\GlobalFunc.cpp > CMakeFiles\WorkerMS.dir\src\GlobalFunc.cpp.i
 
 CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WorkerMS.dir/src/GlobalFunc.cpp.s"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\src\GlobalFunc.cpp -o CMakeFiles\WorkerMS.dir\src\GlobalFunc.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\EmployeeMS\src\GlobalFunc.cpp -o CMakeFiles\WorkerMS.dir\src\GlobalFunc.cpp.s
 
 CMakeFiles/WorkerMS.dir/src/Management.cpp.obj: CMakeFiles/WorkerMS.dir/flags.make
 CMakeFiles/WorkerMS.dir/src/Management.cpp.obj: CMakeFiles/WorkerMS.dir/includes_CXX.rsp
 CMakeFiles/WorkerMS.dir/src/Management.cpp.obj: ../src/Management.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WorkerMS.dir/src/Management.cpp.obj"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\Management.cpp.obj -c D:\C++Demo\C++Primer\Project\src\Management.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\EmployeeMS\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WorkerMS.dir/src/Management.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\Management.cpp.obj -c D:\C++Demo\C++Primer\Project\EmployeeMS\src\Management.cpp
 
 CMakeFiles/WorkerMS.dir/src/Management.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WorkerMS.dir/src/Management.cpp.i"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\src\Management.cpp > CMakeFiles\WorkerMS.dir\src\Management.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\EmployeeMS\src\Management.cpp > CMakeFiles\WorkerMS.dir\src\Management.cpp.i
 
 CMakeFiles/WorkerMS.dir/src/Management.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WorkerMS.dir/src/Management.cpp.s"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\src\Management.cpp -o CMakeFiles\WorkerMS.dir\src\Management.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\EmployeeMS\src\Management.cpp -o CMakeFiles\WorkerMS.dir\src\Management.cpp.s
 
 CMakeFiles/WorkerMS.dir/src/Manager.cpp.obj: CMakeFiles/WorkerMS.dir/flags.make
 CMakeFiles/WorkerMS.dir/src/Manager.cpp.obj: CMakeFiles/WorkerMS.dir/includes_CXX.rsp
 CMakeFiles/WorkerMS.dir/src/Manager.cpp.obj: ../src/Manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/WorkerMS.dir/src/Manager.cpp.obj"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\Manager.cpp.obj -c D:\C++Demo\C++Primer\Project\src\Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\C++Demo\C++Primer\Project\EmployeeMS\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/WorkerMS.dir/src/Manager.cpp.obj"
+	D:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WorkerMS.dir\src\Manager.cpp.obj -c D:\C++Demo\C++Primer\Project\EmployeeMS\src\Manager.cpp
 
 CMakeFiles/WorkerMS.dir/src/Manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WorkerMS.dir/src/Manager.cpp.i"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\src\Manager.cpp > CMakeFiles\WorkerMS.dir\src\Manager.cpp.i
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\C++Demo\C++Primer\Project\EmployeeMS\src\Manager.cpp > CMakeFiles\WorkerMS.dir\src\Manager.cpp.i
 
 CMakeFiles/WorkerMS.dir/src/Manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WorkerMS.dir/src/Manager.cpp.s"
-	D:\mingw64\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\src\Manager.cpp -o CMakeFiles\WorkerMS.dir\src\Manager.cpp.s
+	D:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\C++Demo\C++Primer\Project\EmployeeMS\src\Manager.cpp -o CMakeFiles\WorkerMS.dir\src\Manager.cpp.s
 
 # Object files for target WorkerMS
 WorkerMS_OBJECTS = \
@@ -179,7 +179,7 @@ WorkerMS.exe: CMakeFiles/WorkerMS.dir/build.make
 WorkerMS.exe: CMakeFiles/WorkerMS.dir/linklibs.rsp
 WorkerMS.exe: CMakeFiles/WorkerMS.dir/objects1.rsp
 WorkerMS.exe: CMakeFiles/WorkerMS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++Demo\C++Primer\Project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable WorkerMS.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\C++Demo\C++Primer\Project\EmployeeMS\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable WorkerMS.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\WorkerMS.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +192,6 @@ CMakeFiles/WorkerMS.dir/clean:
 .PHONY : CMakeFiles/WorkerMS.dir/clean
 
 CMakeFiles/WorkerMS.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\C++Demo\C++Primer\Project D:\C++Demo\C++Primer\Project D:\C++Demo\C++Primer\Project\build D:\C++Demo\C++Primer\Project\build D:\C++Demo\C++Primer\Project\build\CMakeFiles\WorkerMS.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\C++Demo\C++Primer\Project\EmployeeMS D:\C++Demo\C++Primer\Project\EmployeeMS D:\C++Demo\C++Primer\Project\EmployeeMS\build D:\C++Demo\C++Primer\Project\EmployeeMS\build D:\C++Demo\C++Primer\Project\EmployeeMS\build\CMakeFiles\WorkerMS.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/WorkerMS.dir/depend
 
