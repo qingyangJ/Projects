@@ -1,5 +1,11 @@
 {
     "files.associations": {
-        "new": "cpp"
+        "new": "cpp",
+        "iostream": "cpp",
+        "map": "cpp",
+        "algorithm": "cpp",
+        "iterator": "cpp",
+        "numeric": "cpp",
+        "fstream": "cpp"
     }
 }

@@ -1,0 +1,3 @@
+D:/C++Demo/C++Primer/Project/SpeechCompetition/build/CMakeFiles/SPEECH.dir
+D:/C++Demo/C++Primer/Project/SpeechCompetition/build/CMakeFiles/edit_cache.dir
+D:/C++Demo/C++Primer/Project/SpeechCompetition/build/CMakeFiles/rebuild_cache.dir

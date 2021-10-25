@@ -1,0 +1,12 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+# 项目名称
+PROJECT(SPEECH)
+
+# 头文件目录
+INCLUDE_DIRECTORIES(./include)
+
+# 源文件目录
+AUX_SOURCE_DIRECTORY(./src SRC)
+
+# 执行
+ADD_EXECUTABLE(SPEECH ./main.cpp ${SRC})
